@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8476908A-222C-55BB-7D0F-B813B4D67E67}</ProjectGuid>
+    <ProjectGuid>{4FAB4F14-153F-8C59-E1C6-408B58F489A8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Oculus</AssemblyName>
@@ -671,19 +671,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{7F4014D6-F548-C9A8-E7A4-3C0B8C2BF532}</Project>
+      <Project>{B1F81E82-A79F-5D7E-12C9-F5799F2DB230}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{64FE9D48-D648-39B5-8B01-F41B4F0C59F9}</Project>
+      <Project>{956C122A-2191-7B35-0C93-E9F262524DA2}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{CE13E6FB-362E-5FAE-B732-AF3CC8AFF4A8}</Project>
+      <Project>{C41CAD4D-FFC8-B48F-222B-FE063531C335}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5780F43D-FFE4-C028-D61C-E6943D49073B}</Project>
+      <Project>{C37EFEA2-A3BC-8031-1071-BB180F9A4B8C}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7EA16383-0B5B-703C-6BF8-2BF1156371E4}</ProjectGuid>
+    <ProjectGuid>{89D71892-6C99-16B6-F45A-E8BDF8320C28}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -70,6 +70,7 @@
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\OvenOpen\OvenFlip.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Windows\opencloseWindow.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Doors\opencloseStallDoor.cs" />
+    <Compile Include="Assets\Scripts\TriggerAnimationAfterPuzzle.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Doors\opencloseDoor1.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Windows\opencloseWindowApt.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Slide\BRGlassDoor.cs" />
@@ -77,7 +78,8 @@
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\TableFlip\TableFlipL.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Windows\opencloseWindow1.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Scenes\Quitgame.cs" />
-    <Compile Include="Assets\Scripts\TriggerAnimationAfterPuzzle.cs" />
+    <Compile Include="Assets\TriggerAnimationAfterKey.cs" />
+    <Compile Include="Assets\PickUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Brick Project Studio\Apartment Kit\Scenes\BPS Apartment Kit.txt" />
@@ -653,119 +655,119 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{63C634E1-A466-8A15-5D59-344D5E004934}</Project>
+      <Project>{1C3FAF62-C65A-E2F3-FFDE-5669D83376A9}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{63FFD66C-16A1-C31D-C5D6-39120848C68B}</Project>
+      <Project>{25FEA64A-AB14-0B06-373C-67399061260F}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{A71ED45F-2C31-37AC-8912-6611DA8C2E0D}</Project>
+      <Project>{A12DE830-2DE0-507E-4CE0-DEB651BF5100}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{E53BEE90-F485-A411-73D6-0C834E51DFE3}</Project>
+      <Project>{AA3EFE92-EFB4-3C52-41FC-78C427D25B20}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{2C030A6A-AF49-4338-8B4A-EF28EDFE894B}</Project>
+      <Project>{0F59EF28-A580-3158-DD08-D7E4F9082267}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{4C6194E7-406B-BB16-974F-711378BF8F0C}</Project>
+      <Project>{3B7D5147-E0FA-FCCC-E0C2-6E9916866AF9}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{DF131E22-D64A-5698-27D3-62BCA1B26F74}</Project>
+      <Project>{8F92CE20-C107-A95C-DA6B-4D0D5205FABA}</Project>
       <Name>Unity.XR.Interaction.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{BAA00AC1-065F-9FED-74AF-FBDE548BB6B2}</Project>
+      <Project>{0B8115E1-38B3-97F8-C09C-FF05FF8DE373}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{C63E9645-9243-6CC1-DDB8-C3BAA6493D80}</Project>
+      <Project>{4A7DE964-B87F-8912-8658-16EEB9460EB6}</Project>
       <Name>Unity.Postprocessing.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{CE13E6FB-362E-5FAE-B732-AF3CC8AFF4A8}</Project>
+      <Project>{C41CAD4D-FFC8-B48F-222B-FE063531C335}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{64FE9D48-D648-39B5-8B01-F41B4F0C59F9}</Project>
+      <Project>{956C122A-2191-7B35-0C93-E9F262524DA2}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{0BF6D6D7-B24A-3004-4CF2-4FCE64BB6483}</Project>
+      <Project>{18FC0DC7-A297-B90B-CACE-40BC8854AFED}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{21824FD6-DC7D-9B0D-C06D-8FD25BBE10DF}</Project>
+      <Project>{08EF670B-FC67-F2D0-9C3A-87940A7F0C82}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.Editor.csproj">
-      <Project>{9FF34A78-0A09-34B7-7ED5-B1AE63640616}</Project>
+      <Project>{700B5B6F-060D-9BF6-FA44-B4DF3CC5B997}</Project>
       <Name>Unity.ProGrids.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{6E7B3780-040D-F416-EE28-77E2C875DE7C}</Project>
+      <Project>{31C09657-C9AE-CFD2-A04C-662AB24168E4}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5780F43D-FFE4-C028-D61C-E6943D49073B}</Project>
+      <Project>{C37EFEA2-A3BC-8031-1071-BB180F9A4B8C}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
-      <Project>{41E5B7B9-4A02-83E1-BFE6-E6711ACAE538}</Project>
+      <Project>{F52EFA02-06A5-D877-3A9D-F2CB56EB6395}</Project>
       <Name>Unity.XR.CoreUtils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{9EABE9C4-7053-0FAF-A0B6-DC57DDC0FF18}</Project>
+      <Project>{7194E2F9-A418-09D3-C549-931C4D30CFEF}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{610E56E1-9FE3-50C6-798E-B3D3CC8D9C16}</Project>
+      <Project>{CD3DA346-D2DC-38D6-83EE-7C91B7E4049F}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{5F64D9F9-1E5A-5C10-EC7F-625A375BD968}</Project>
+      <Project>{E09F4AF8-E255-8A18-BE9C-D6F8FAC17786}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{1C916737-B558-1837-CEA0-3AF477834558}</Project>
+      <Project>{688E870C-20B3-0381-81B4-600A545BEF99}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{05BCE31C-C69C-AA8A-B715-9A988A07D378}</Project>
+      <Project>{7BBFE6C5-3996-D02B-B1B3-0F2E48C67C0B}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
-      <Project>{E910F3D1-279F-136F-CAD0-45B18244C066}</Project>
+      <Project>{DF60B2CD-3A17-4364-A99A-F152A2A24C0B}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{7F4014D6-F548-C9A8-E7A4-3C0B8C2BF532}</Project>
+      <Project>{B1F81E82-A79F-5D7E-12C9-F5799F2DB230}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
-      <Project>{E46A318A-E045-5F68-6298-E16E4C745463}</Project>
+      <Project>{969BFC43-44A1-577B-0399-E740408AB207}</Project>
       <Name>Unity.XR.Oculus.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Editor.csproj">
-      <Project>{E6A62D5D-AD1E-1704-F730-6C165B6B46F1}</Project>
+      <Project>{1652FC3A-EF35-A0B3-C740-E75D439C3519}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
-      <Project>{1AE3A5C9-AD93-6FB0-0745-60D8F220AFD6}</Project>
+      <Project>{0C50E04D-18E6-BD74-54F5-4202960201B0}</Project>
       <Name>UnityEditor.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.csproj">
-      <Project>{18789F2C-6DD2-4EC2-A431-658C61E2B21B}</Project>
+      <Project>{741F170E-F952-4428-339E-795FD50F9987}</Project>
       <Name>Unity.ProGrids</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.csproj">
-      <Project>{8476908A-222C-55BB-7D0F-B813B4D67E67}</Project>
+      <Project>{4FAB4F14-153F-8C59-E1C6-408B58F489A8}</Project>
       <Name>Unity.XR.Oculus</Name>
     </ProjectReference>
   </ItemGroup>

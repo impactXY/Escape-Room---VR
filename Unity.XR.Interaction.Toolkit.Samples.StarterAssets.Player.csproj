@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AC2D5F09-A71B-7860-FB72-A77699C32087}</ProjectGuid>
+    <ProjectGuid>{C50C5E9E-720A-762A-73AB-C0C1D439EF56}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</AssemblyName>
@@ -609,19 +609,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{1F797889-4309-F185-45F2-12DAE783B941}</Project>
+      <Project>{AFC8025E-CCCD-71D0-94A6-9CBB57143F78}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Player.csproj">
-      <Project>{ED41352D-01AB-5348-F980-6DD8034CF57D}</Project>
+      <Project>{3ED1105B-6F87-7433-8793-586841980CDA}</Project>
       <Name>Unity.XR.CoreUtils.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Player.csproj">
-      <Project>{C88E0A06-73E9-17F1-84DB-0E8535655F76}</Project>
+      <Project>{D9D354AD-B34F-BB86-25BE-C78B27A96D02}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{DAAF4A4C-B18C-110A-5731-8E8270C61A18}</Project>
+      <Project>{DBD9728F-56F3-89C6-BE1F-67E098B09C4A}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

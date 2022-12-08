@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{36A14F4E-9F30-DB7C-3177-23F3282E928A}</ProjectGuid>
+    <ProjectGuid>{43DDA3E6-4EFC-494E-153E-3FC4A8B8B19D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ProGrids</AssemblyName>
@@ -609,7 +609,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{DAAF4A4C-B18C-110A-5731-8E8270C61A18}</Project>
+      <Project>{DBD9728F-56F3-89C6-BE1F-67E098B09C4A}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

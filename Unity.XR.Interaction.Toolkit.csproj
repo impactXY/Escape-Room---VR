@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DF131E22-D64A-5698-27D3-62BCA1B26F74}</ProjectGuid>
+    <ProjectGuid>{8F92CE20-C107-A95C-DA6B-4D0D5205FABA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Interaction.Toolkit</AssemblyName>
@@ -819,27 +819,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5780F43D-FFE4-C028-D61C-E6943D49073B}</Project>
+      <Project>{C37EFEA2-A3BC-8031-1071-BB180F9A4B8C}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{6E7B3780-040D-F416-EE28-77E2C875DE7C}</Project>
+      <Project>{31C09657-C9AE-CFD2-A04C-662AB24168E4}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{610E56E1-9FE3-50C6-798E-B3D3CC8D9C16}</Project>
+      <Project>{CD3DA346-D2DC-38D6-83EE-7C91B7E4049F}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{64FE9D48-D648-39B5-8B01-F41B4F0C59F9}</Project>
+      <Project>{956C122A-2191-7B35-0C93-E9F262524DA2}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{05BCE31C-C69C-AA8A-B715-9A988A07D378}</Project>
+      <Project>{7BBFE6C5-3996-D02B-B1B3-0F2E48C67C0B}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{CE13E6FB-362E-5FAE-B732-AF3CC8AFF4A8}</Project>
+      <Project>{C41CAD4D-FFC8-B48F-222B-FE063531C335}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>

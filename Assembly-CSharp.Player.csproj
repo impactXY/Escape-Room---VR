@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8A5AFF59-CD2C-F1C1-1FAD-39E3BB48611A}</ProjectGuid>
+    <ProjectGuid>{05F845E8-02C7-C221-451A-18E44865E2B3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -70,6 +70,7 @@
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\OvenOpen\OvenFlip.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Windows\opencloseWindow.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Doors\opencloseStallDoor.cs" />
+    <Compile Include="Assets\Scripts\TriggerAnimationAfterPuzzle.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Doors\opencloseDoor1.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Windows\opencloseWindowApt.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Slide\BRGlassDoor.cs" />
@@ -77,7 +78,8 @@
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\TableFlip\TableFlipL.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Windows\opencloseWindow1.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Scenes\Quitgame.cs" />
-    <Compile Include="Assets\Scripts\TriggerAnimationAfterPuzzle.cs" />
+    <Compile Include="Assets\TriggerAnimationAfterKey.cs" />
+    <Compile Include="Assets\PickUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Brick Project Studio\Apartment Kit\Scenes\BPS Apartment Kit.txt" />
@@ -671,59 +673,59 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{4ABABC68-031E-3A06-31CB-EC46C1947262}</Project>
+      <Project>{B805E61E-36E7-1E05-4166-BA039A166450}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{85BA6816-6902-E62B-2F6F-B98401B6AC59}</Project>
+      <Project>{B373A413-E25E-B777-ADDC-F4866665F2A7}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Player.csproj">
-      <Project>{C88E0A06-73E9-17F1-84DB-0E8535655F76}</Project>
+      <Project>{D9D354AD-B34F-BB86-25BE-C78B27A96D02}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Subsystem.Registration.Player.csproj">
-      <Project>{23E5A289-0E65-7CEC-6176-A9DBA5027EC3}</Project>
+      <Project>{869F5810-9B14-C953-6C7D-6D839D46CEB1}</Project>
       <Name>Unity.Subsystem.Registration.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{1F797889-4309-F185-45F2-12DAE783B941}</Project>
+      <Project>{AFC8025E-CCCD-71D0-94A6-9CBB57143F78}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{64B55A9F-905F-AA18-FEE7-F681F925B81E}</Project>
+      <Project>{CF059B9D-017A-80AA-0663-5161EA9ECC9B}</Project>
       <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{DAAF4A4C-B18C-110A-5731-8E8270C61A18}</Project>
+      <Project>{DBD9728F-56F3-89C6-BE1F-67E098B09C4A}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.Player.csproj">
-      <Project>{A70C2351-D961-EB65-ADDA-086287BB879C}</Project>
+      <Project>{7D6DB33A-4FB8-051F-44C3-9CC603395025}</Project>
       <Name>Unity.Postprocessing.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
-      <Project>{D7D02183-222E-F758-BDF5-4EB63507B9B6}</Project>
+      <Project>{923CA323-0D56-4D73-A43A-FAAFEE3F28CB}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player.csproj">
-      <Project>{AC2D5F09-A71B-7860-FB72-A77699C32087}</Project>
+      <Project>{C50C5E9E-720A-762A-73AB-C0C1D439EF56}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Player.csproj">
-      <Project>{ED41352D-01AB-5348-F980-6DD8034CF57D}</Project>
+      <Project>{3ED1105B-6F87-7433-8793-586841980CDA}</Project>
       <Name>Unity.XR.CoreUtils.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{511BC25A-589E-7635-0C83-C7D671C721EA}</Project>
+      <Project>{D41B3F50-02F8-CBDF-D54E-BCDD72BEF6FE}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.Player.csproj">
-      <Project>{36A14F4E-9F30-DB7C-3177-23F3282E928A}</Project>
+      <Project>{43DDA3E6-4EFC-494E-153E-3FC4A8B8B19D}</Project>
       <Name>Unity.ProGrids.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.Player.csproj">
-      <Project>{DA27C863-B89B-3169-07D8-BCD6883E4A19}</Project>
+      <Project>{1F2715F6-E7C0-852A-AC7C-D64521EAF2C9}</Project>
       <Name>Unity.XR.Oculus.Player</Name>
     </ProjectReference>
   </ItemGroup>
